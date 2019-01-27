@@ -7,7 +7,11 @@ public class Main {
 
         int[] two_sum = new int[]{2, 7, 11, 15};
         Twosum twosum = new Twosum();
-        System.out.println(Arrays.toString(twosum.twoSum(two_sum,9)));
+
+
+        //revers int
+        ReverseInt.revers(123);
 
     }
+
 }
